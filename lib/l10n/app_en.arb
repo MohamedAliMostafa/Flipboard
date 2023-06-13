@@ -1,0 +1,13 @@
+{
+  "news": "News",
+  "sports":"Sports",
+  "techno":"Technology",
+  "health":"Health",
+  "bussines":"Bussines",
+  "envir":"Environment",
+  "science": "Science",
+  "language": "Language",
+  "arabic": "Arabic",
+  "english": "English"
+
+}
