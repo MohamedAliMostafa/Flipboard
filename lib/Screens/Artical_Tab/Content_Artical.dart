@@ -26,7 +26,7 @@ class _ContentArticalState extends State<ContentArtical> {
     return Scaffold(
        resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          title:  Text("News ${ars.author}"),
+          title:  Text("News ${ars.author??""}"),
           backgroundColor: Colors.teal,
           centerTitle: true,
           shape: const RoundedRectangleBorder(

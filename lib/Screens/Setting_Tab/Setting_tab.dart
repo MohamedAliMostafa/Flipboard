@@ -5,7 +5,12 @@ import 'package:provider/provider.dart';
 import '../../StateManagement/Provider/Mypro.dart';
 import '../style/DropDown.dart';
 
-class SettingTab extends StatelessWidget {
+class SettingTab extends StatefulWidget {
+  @override
+  State<SettingTab> createState() => _SettingTabState();
+}
+
+class _SettingTabState extends State<SettingTab> {
   @override
   Widget build(BuildContext context) {
     var p = Provider.of<MyPro>(context);
@@ -24,7 +29,7 @@ class SettingTab extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 20, left: 40),
                 child: Text(
                   AppLocalizations.of(context)!.language,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                 )),
             DropDowm(
               item1: AppLocalizations.of(context)!.english,
