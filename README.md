@@ -5,27 +5,19 @@
 ## Project Screen Shots
 
 
-**ToDo app Light Mode**
+**News app**
 <table>
   <tr>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/ff8f0ec6-429f-4ab4-a989-97667816518d" width=150 height=300></td>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/98655fb0-38ab-45f9-b5bb-bf86cf147087" width=150 height=300></td>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/d5fb074b-c533-4594-8396-32c8aa61ea15" width=150 height=300></td>
-     <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/23f60feb-0705-4af1-9866-3e6055d7a7e5" width=150 height=300></td>
-     <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/4968f0d7-9351-4f97-800a-ab4a86c9985a" width=150 height=300></td>
-     <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/6baf1eff-2555-4c9d-9677-7c41ce67f6f8" width=150 height=300></td>
-     <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/0446abcb-4491-4a16-b52a-52bcd3df09ee" width=150 height=300></td>
+    <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/a1c4126b-1abf-44a9-963e-a947e64a500c" width=150 height=300></td>
+    <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/825467af-03c8-4b07-acc4-af44dd5a9aae" width=150 height=300></td>
+    <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/920d482f-e5e1-4ed0-945c-fb142597c115" width=150 height=300></td>
+     <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/625d1fde-d02d-4012-8b6c-10cee9b8674a" width=150 height=300></td>
+     <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/91a50b98-9112-494d-a79a-568e51209368" width=150 height=300></td>
+     <td><img src="https://github.com/MohamedAliMostafa/News/assets/132190049/49779972-bd3d-4fec-b600-eca1e61e1271" width=150 height=300></td>
+
   </tr>
  </table>
  
- **ToDo app Dark Mode**
- <table>
-  <tr>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/4d236935-e9ca-4d7a-8d9a-874a8c630ad4" width=150 height=300></td>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/17544351-4250-4c68-b1bc-d197dea32af0" width=150 height=300></td>
-    <td><img src="https://github.com/MohamedAliMostafa/ToDo/assets/132190049/e412f288-a1f5-4a3c-b411-54ec543c9a4f" width=150 height=300></td>
-  </tr>
- </table>
  
  # Used 
  
