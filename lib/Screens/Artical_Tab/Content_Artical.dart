@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/Models/NewsModel/NewsModel.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:webview_flutter/webview_flutter.dart';
-
+import 'package:path/path.dart' as p;
 class ContentArtical extends StatefulWidget {
 
   @override
@@ -13,16 +12,15 @@ class _ContentArticalState extends State<ContentArtical> {
   @override
   Widget build(BuildContext context) {
     var ars= ModalRoute.of(context)?.settings.arguments as Articles;
-  //  final Uri url2 = Uri.parse(ars.url??"");
-   /* _launchURL() async {
-      if (await canLaunchUrl(url2)) {
-        await launchUrl(url2,webViewConfiguration: const WebViewConfiguration(enableJavaScript: true),mode: LaunchMode.inAppWebView);
-      } else {
+   final Uri url2 = Uri.parse(ars.url??"");
+   Future<void> _launchURL()  async {
+      if (!await launchUrl(url2,mode: LaunchMode.platformDefault))
+      {
         throw 'Could not launch $url2';
       }
 
     }
-    */
+
     return Scaffold(
        resizeToAvoidBottomInset: false,
         appBar: AppBar(
@@ -84,7 +82,7 @@ class _ContentArticalState extends State<ContentArtical> {
                               const SizedBox(height: 30,),
                               InkWell(
                                 onTap: () =>setState(() {
-
+                                  _launchURL;
                                 }),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.end,
