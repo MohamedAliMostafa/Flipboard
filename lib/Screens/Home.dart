@@ -3,6 +3,7 @@ import 'package:news_app/Layout/LayoutScreen.dart';
 import 'package:news_app/Models/CateModel/CateModel.dart';
 import 'package:news_app/Screens/Categ/CateWidget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:news_app/Screens/Search/SearchScreen.dart';
 import 'package:news_app/Screens/Setting_Tab/Setting_tab.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -31,6 +32,12 @@ class _HomeScreenState extends State<HomeScreen> {
               borderRadius: BorderRadius.only(
                   bottomRight: Radius.circular(40),
                   bottomLeft: Radius.circular(40))),
+          actions: [Visibility(
+            visible: SelectedCate!=null?true :false,
+            child: IconButton(onPressed:() {
+              Navigator.pushNamed(context, SearchScreen.RouteName,arguments:SelectedCate );
+            }, icon: const Icon(Icons.search)),
+          )],
         ),
         drawer: Drawer(
             backgroundColor: Colors.white,

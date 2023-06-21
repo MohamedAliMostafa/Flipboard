@@ -17,6 +17,15 @@ class ApiManager {
     SourceResponse sourceResponse = SourceResponse.fromJson(body);
     return sourceResponse;
   }
+//https://newsapi.org/v2/everything?q=Kevin Hurler&apiKey=c522079a708744aa8459b8f95bb34e9d
+  static Future<NewsModel> getSearchNews(String Aut) async {
+    Uri Url = Uri.https(
+        baseURL, EndPonintNews, {"apiKey": APIkey, "q": Aut});
+    Response response = await http.get(Url);
+    var body = jsonDecode(response.body);
+    NewsModel newsModel = NewsModel.fromJson(body);
+    return newsModel;
+  }
 
   static Future<NewsModel> getNews(String source_ID) async {
     Uri Url = Uri.https(

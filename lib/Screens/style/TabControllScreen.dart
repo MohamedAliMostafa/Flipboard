@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/Models/NewsModel/NewsModel.dart';
 import 'package:news_app/Models/SourseModel/Sources.dart';
 import 'package:news_app/Screens/NewsCont/NewContent.dart';
-import 'package:news_app/Shared/Remote/APi.dart';
+
 
 import 'ItemTab.dart';
 

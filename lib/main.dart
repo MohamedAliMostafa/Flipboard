@@ -4,6 +4,7 @@ import 'package:news_app/Models/CateModel/CateModel.dart';
 import 'package:news_app/Screens/Artical_Tab/Artical_Tab.dart';
 import 'package:news_app/Screens/Home.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:news_app/Screens/Search/SearchScreen.dart';
 import 'package:news_app/Screens/SplashScreen/SplashScreen.dart';
 import 'package:news_app/StateManagement/Provider/Mypro.dart';
 import 'package:provider/provider.dart';
@@ -40,7 +41,8 @@ locale: Locale(p.language),
         HomeLayout.Routename:(context)=>HomeLayout(),
         HomeScreen.RouteName:(context)=>HomeScreen(),
         Artical_Tab.Route_name:(context)=>Artical_Tab(),
-        Splash.routeName:(context)=>Splash()
+        Splash.routeName:(context)=>Splash(),
+        SearchScreen.RouteName:(context)=>SearchScreen()
 
       },
 
