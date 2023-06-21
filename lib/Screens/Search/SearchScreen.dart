@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/Models/CateModel/CateModel.dart';
 import '../../Models/NewsModel/NewsModel.dart';
 import '../../Shared/Remote/APi.dart';
 import '../NewsCont/NewsItem/NewsItem.dart';
@@ -17,7 +16,6 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // var args = ModalRoute.of(context)?.settings.arguments as CateModel;
     return Scaffold(
       backgroundColor: Colors.black87,
       appBar: AppBar(
