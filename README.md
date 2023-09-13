@@ -1,4 +1,4 @@
-# News app
+# Flipboard app
 
  **Flutter project.**
 
